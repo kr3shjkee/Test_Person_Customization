@@ -1,6 +1,7 @@
 ﻿using CodeBase.Core.Compositions;
 using CodeBase.Game;
 using CodeBase.Game.Data;
+using CodeBase.Game.Data.Settings;
 using UnityEngine;
 using Zenject;
 

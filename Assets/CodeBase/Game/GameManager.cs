@@ -1,5 +1,6 @@
 ﻿using CodeBase.Core.Compositions;
 using CodeBase.Core.WindowFsm;
+using CodeBase.Game.Windows;
 using Cysharp.Threading.Tasks;
 using UnityEngine.SceneManagement;
 using Zenject;
@@ -25,14 +26,15 @@ namespace CodeBase.Game
             PreparedWindows();
             await SceneManager.LoadSceneAsync(_mainScene);
             await _sceneInitializer.Initialize();
-            //_windowFsm.OpenWindow(typeof(MainUi), true);
+            _windowFsm.OpenWindow(typeof(Loading), true);
         }
         
         private void PreparedWindows()
         {
             _windowResolve.CleanUp();
 
-            //_windowResolve.Set<MainUi>();
+            _windowResolve.Set<MainUi>();
+            _windowResolve.Set<Loading>();
         }
     }
 }

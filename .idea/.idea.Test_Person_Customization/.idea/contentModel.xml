@@ -4,7 +4,6 @@
     <e p="C:\Users\nikit\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\nikit\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Test_Person_Customization.983243633.00" t="ExcludeRecursive" />
     <e p="D:\GitHub\Test_Person_Customization" t="IncludeRecursive">
-      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -40,101 +39,39 @@
               <e p="CompositionsRoot.cs" t="Include" />
             </e>
             <e p="Data" t="Include">
-              <e p="GameSettings.cs" t="Include" />
+              <e p="DTO" t="Include">
+                <e p="SaveDto.cs" t="Include" />
+              </e>
+              <e p="Enums" t="Include">
+                <e p="CallbackType.cs" t="Include" />
+              </e>
+              <e p="Settings" t="Include">
+                <e p="CustomizationSettings.cs" t="Include" />
+                <e p="GameSettings.cs" t="Include" />
+                <e p="JsonSettings.cs" t="Include" />
+              </e>
             </e>
             <e p="GameManager.cs" t="Include" />
             <e p="Installers" t="Include">
               <e p="MainSceneMonoInstaller.cs" t="Include" />
             </e>
-          </e>
-        </e>
-        <e p="ithappy" t="Include">
-          <e p="Creative_Characters_FREE" t="Include">
-            <e p="Render_Pipeline_Convert" t="Include">
-              <e p="Documentation.txt" t="Include" />
+            <e p="MVP" t="Include">
+              <e p="Presenters" t="Include">
+                <e p="LoadingPresenter.cs" t="Include" />
+                <e p="MainUiPresenter.cs" t="Include" />
+              </e>
+              <e p="Services" t="Include">
+                <e p="SaveLoadService.cs" t="Include" />
+                <e p="TimerService.cs" t="Include" />
+              </e>
+              <e p="Views" t="Include">
+                <e p="LoadingView.cs" t="Include" />
+                <e p="MainUiView.cs" t="Include" />
+              </e>
             </e>
-            <e p="Scripts" t="Include">
-              <e p="Character_Controller" t="Include">
-                <e p="CharacterMover.cs" t="Include" />
-                <e p="MovePlayerInput.cs" t="Include" />
-                <e p="PlayerCamera.cs" t="Include" />
-                <e p="ThirdPersonCamera.cs" t="Include" />
-              </e>
-              <e p="Editor" t="Include">
-                <e p="AssetLoader.cs" t="Include" />
-                <e p="AssetsPath.cs" t="Include" />
-                <e p="Character" t="Include">
-                  <e p="CustomizableCharacter.cs" t="Include" />
-                  <e p="FullBodySlot.cs" t="Include" />
-                  <e p="FullBodyVariant.cs" t="Include" />
-                  <e p="PreviewCreator.cs" t="Include" />
-                  <e p="Slot.cs" t="Include" />
-                  <e p="SlotBase.cs" t="Include" />
-                  <e p="SlotGroup.cs" t="Include" />
-                  <e p="SlotLibraryLoader.cs" t="Include" />
-                  <e p="SlotVariant.cs" t="Include" />
-                </e>
-                <e p="CharacterCustomizationWindow.cs" t="Include" />
-                <e p="FaceEditor" t="Include">
-                  <e p="FaceLoader.cs" t="Include" />
-                  <e p="FacePickerEditor.cs" t="Include" />
-                </e>
-                <e p="GroupType.cs" t="Include" />
-                <e p="LayerMaskUtility.cs" t="Include" />
-                <e p="MaterialManagement" t="Include">
-                  <e p="MaterialOnDemand.cs" t="Include" />
-                  <e p="MaterialPaths.cs" t="Include" />
-                  <e p="MaterialProvider.cs" t="Include" />
-                </e>
-                <e p="PartsEditor.cs" t="Include" />
-                <e p="Randomizer" t="Include">
-                  <e p="RandomCharacterGenerator.cs" t="Include" />
-                  <e p="StepResult.cs" t="Include" />
-                  <e p="Steps" t="Include">
-                    <e p="Impl" t="Include">
-                      <e p="BodyStep.cs" t="Include" />
-                      <e p="CostumesStep.cs" t="Include" />
-                      <e p="FaceAccessoriesStep.cs" t="Include" />
-                      <e p="FaceStep.cs" t="Include" />
-                      <e p="GlassesStep.cs" t="Include" />
-                      <e p="GlovesStep.cs" t="Include" />
-                      <e p="HairstyleSingleStep.cs" t="Include" />
-                      <e p="HairstyleStep.cs" t="Include" />
-                      <e p="HatSingleStep.cs" t="Include" />
-                      <e p="HatStep.cs" t="Include" />
-                      <e p="MascotsStep.cs" t="Include" />
-                      <e p="OutfitStep.cs" t="Include" />
-                      <e p="OutwearStep.cs" t="Include" />
-                      <e p="PantsStep.cs" t="Include" />
-                      <e p="ShoesStep.cs" t="Include" />
-                      <e p="ShortsStep.cs" t="Include" />
-                      <e p="SlotStepBase.cs" t="Include" />
-                      <e p="SocksStep.cs" t="Include" />
-                      <e p="StepBase.cs" t="Include" />
-                    </e>
-                    <e p="IRandomizerStep.cs" t="Include" />
-                  </e>
-                </e>
-                <e p="SavedSlot.cs" t="Include" />
-                <e p="SlotLibrary.cs" t="Include" />
-                <e p="SlotName.cs" t="Include" />
-                <e p="SlotSorter.cs" t="Include" />
-                <e p="SlotType.cs" t="Include" />
-                <e p="SlotValidation" t="Include">
-                  <e p="FullBodyToggledRule.cs" t="Include" />
-                  <e p="ISlotValidationRules.cs" t="Include" />
-                  <e p="SlotToggledRule.cs" t="Include" />
-                  <e p="SlotValidator.cs" t="Include" />
-                </e>
-              </e>
-              <e p="Extensions" t="Include">
-                <e p="StringExtensions.cs" t="Include" />
-              </e>
-              <e p="FaceManagement" t="Include">
-                <e p="FaceMesh.cs" t="Include" />
-                <e p="FacePicker.cs" t="Include" />
-                <e p="FaceType.cs" t="Include" />
-              </e>
+            <e p="Windows" t="Include">
+              <e p="Loading.cs" t="Include" />
+              <e p="MainUi.cs" t="Include" />
             </e>
           </e>
         </e>
@@ -820,6 +757,38 @@
             </e>
             <e p="Version.txt" t="Include" />
             <e p="zenject.asmdef" t="Include" />
+          </e>
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+            <e p="TMP_Bitmap.shader" t="Include" />
+            <e p="TMP_SDF Overlay.shader" t="Include" />
+            <e p="TMP_SDF SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface.shader" t="Include" />
+            <e p="TMP_SDF.shader" t="Include" />
+            <e p="TMP_Sprite.shader" t="Include" />
+            <e p="TMPro.cginc" t="Include" />
+            <e p="TMPro_Mobile.cginc" t="Include" />
+            <e p="TMPro_Properties.cginc" t="Include" />
+            <e p="TMPro_Surface.cginc" t="Include" />
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+            <e p="EmojiOne.json" t="Include" />
           </e>
         </e>
       </e>
