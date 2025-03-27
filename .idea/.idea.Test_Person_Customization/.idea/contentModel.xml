@@ -4,6 +4,7 @@
     <e p="C:\Users\nikit\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
     <e p="C:\Users\nikit\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Test_Person_Customization.983243633.00" t="ExcludeRecursive" />
     <e p="D:\GitHub\Test_Person_Customization" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -34,16 +35,30 @@
               <e p="WindowFsm.cs" t="Include" />
             </e>
           </e>
+          <e p="Editor" t="Include">
+            <e p="DeleteSaveFile.cs" t="Include" />
+          </e>
           <e p="Game" t="Include">
             <e p="Compositions" t="Include">
               <e p="CompositionsRoot.cs" t="Include" />
             </e>
             <e p="Data" t="Include">
+              <e p="Configs" t="Include">
+                <e p="BodyColorConfig.cs" t="Include" />
+                <e p="IncompatibilityItemConfig.cs" t="Include" />
+                <e p="ItemConfig.cs" t="Include" />
+                <e p="ItemsListConfig.cs" t="Include" />
+                <e p="WeaponConfig.cs" t="Include" />
+                <e p="WeaponsListConfig.cs" t="Include" />
+              </e>
               <e p="DTO" t="Include">
+                <e p="ItemDto.cs" t="Include" />
                 <e p="SaveDto.cs" t="Include" />
               </e>
               <e p="Enums" t="Include">
+                <e p="BodyColorType.cs" t="Include" />
                 <e p="CallbackType.cs" t="Include" />
+                <e p="ItemType.cs" t="Include" />
               </e>
               <e p="Settings" t="Include">
                 <e p="CustomizationSettings.cs" t="Include" />

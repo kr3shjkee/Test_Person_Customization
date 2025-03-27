@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using CodeBase.Game.Data.DTO;
 using CodeBase.Game.Data.Enums;
@@ -54,6 +55,17 @@ namespace CodeBase.Game.MVP.Services
         {
             
             _dto = new SaveDto();
+            _dto.Items = new List<ItemDto>();
+
+            foreach (ItemType fruit in Enum.GetValues(typeof(ItemType)))
+            {
+                if (fruit != ItemType.Invalid)
+                {
+                    ItemDto item = new ItemDto(fruit, 0);
+                    _dto.Items.Add(item);
+                }
+            }
+            _dto.BodyColorType = BodyColorType.White;
 
             SaveData();
         }
