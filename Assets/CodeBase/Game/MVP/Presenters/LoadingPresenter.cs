@@ -48,7 +48,7 @@ namespace CodeBase.Game.MVP.Presenters
             if(_window != window || _view == null) return;
             
             _view.Show();
-            //_view.Animation.DoRotateAnimation();
+            _view.Animation.PlayAnimation();
             _timerService.StartTimerAsync(OnHandleCallback).Forget();
             _saveLoadService.TryLoadDataAsync(OnHandleCallback).Forget();
         }
@@ -69,6 +69,7 @@ namespace CodeBase.Game.MVP.Presenters
                     return;
                 
                 _isLoadingFinished = true;
+                _view.Animation.StopAnimation();
                 _windowFsm.CloseWindow(typeof(Loading));
                 _windowFsm.OpenWindow(typeof(MainUi), true);
             }

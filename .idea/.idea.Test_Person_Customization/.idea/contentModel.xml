@@ -39,6 +39,9 @@
             <e p="DeleteSaveFile.cs" t="Include" />
           </e>
           <e p="Game" t="Include">
+            <e p="Animations" t="Include">
+              <e p="TextAnimation.cs" t="Include" />
+            </e>
             <e p="Compositions" t="Include">
               <e p="CompositionsRoot.cs" t="Include" />
             </e>
@@ -97,6 +100,15 @@
             <e p="Windows" t="Include">
               <e p="Loading.cs" t="Include" />
               <e p="MainUi.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Plugins" t="Include">
+            <e p="codeandweb.com" t="Include">
+              <e p="Editor" t="Include">
+                <e p="SettingsTexturePackerImporter.txt" t="Include" />
+                <e p="SpritesheetImporter.cs" t="Include" />
+                <e p="UIImageSetSizeAndPivot.cs" t="Include" />
+              </e>
             </e>
           </e>
         </e>

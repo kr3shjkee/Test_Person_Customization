@@ -7,20 +7,20 @@
  *
  */
 
-using UnityEngine;
-using UnityEditor;
-
 // Note: TexturePacker Importer with Unity 2021.2 (or newer) requires the "Sprite 2D" package,
 //       please make sure that it is part of your Unity project. You can install it using
 //       Unity's package manager.
-
-#if UNITY_2021_2_OR_NEWER
-using UnityEditor.U2D.Sprites;
 using System.Collections.Generic;
+using TexturePackerImporter;
+using UnityEditor;
+using UnityEditor.U2D.Sprites;
+using UnityEngine;
+#if UNITY_2021_2_OR_NEWER
+
 #endif
 
 
-namespace TexturePackerImporter
+namespace CodeBase.Plugins.codeandweb.com.Editor
 {
     public class SpritesheetImporter : AssetPostprocessor
     {
@@ -28,7 +28,7 @@ namespace TexturePackerImporter
         void OnPreprocessTexture()
         {
             TextureImporter importer = assetImporter as TextureImporter;
-            SheetInfo sheet = TexturePackerImporter.getSheetInfo(importer);
+            SheetInfo sheet = TexturePackerImporter.TexturePackerImporter.getSheetInfo(importer);
             if (sheet != null)
             {
                 Dbg.Log("Updating sprite sheet " + importer.assetPath);

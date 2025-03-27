@@ -123,6 +123,48 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+      name: bow_1
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 710
+        width: 616
+        height: 313
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c222867b85d4dd34696b9b3b0a88b6ff
+      internalID: -1399524038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bow_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 103
+        width: 668
+        height: 278
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf6bdfb4bd379345ab7f5f7970e32d1
+      internalID: 501033455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: bow_icon
       rect:
         serializedVersion: 2
@@ -137,50 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfd9cc97a78459b45bfcf02671e77d30
-      internalID: 1081903000
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bowstring_01_Icon
-      rect:
-        serializedVersion: 2
-        x: 750
-        y: 168
-        width: 459
-        height: 461
-      alignment: 9
-      pivot: {x: 0.503268, y: 0.48373103}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 86ee40e55f0a211469088cca11e302ba
-      internalID: 819450834
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bowstring_04_Icon
-      rect:
-        serializedVersion: 2
-        x: 493
-        y: 128
-        width: 462
-        height: 464
-      alignment: 9
-      pivot: {x: 0.508658, y: 0.48060346}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8bd8a343c60f9ca4f822e84caf642e55
-      internalID: 1248868437
+      spriteID: 87f1c83bfb7c429428f6df49302a8fc4
+      internalID: 666273958
       vertices: []
       indices: 
       edges: []
@@ -188,7 +188,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 74ad133da16ce834d88bec8bb8760df7
+    spriteID: 7fb34196af718fe45af86996c454a35d
     internalID: 0
     vertices: []
     indices: 
@@ -196,9 +196,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bowstring_01_Icon: 819450834
-      Bowstring_04_Icon: 1248868437
-      bow_icon: 1081903000
+      bow_1: -1399524038
+      bow_2: 501033455
+      bow_icon: 666273958
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
