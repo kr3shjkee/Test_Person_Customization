@@ -1,0 +1,18 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:ed7cab2f222b95f0173a6f7eccd746e8:c48b7977a557fa9ecc0c047bc9f87282:1f4216290dd59966d96a4a26abd46381$
+#
+:format=40300
+:texture=gloves_atlass.png
+:size=2048x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+gloves_1;1061;670;348;353; 0.5;0.5; 0;0;0;0; 4;348;0;0;0;0;353;348;353; 2;1;2;3;0;1;3
+gloves_2;615;530;444;493; 0.5;0.5; 0;0;0;0; 4;444;0;0;0;0;493;444;493; 2;1;2;3;0;1;3
+gloves_icon;1;411;612;612; 0.5;0.5; 0;0;0;0; 4;612;0;0;0;0;612;612;612; 2;1;2;3;0;1;3

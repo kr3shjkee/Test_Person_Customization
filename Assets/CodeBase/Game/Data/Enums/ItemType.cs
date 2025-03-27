@@ -14,5 +14,6 @@
         Shoes = 9,
         Sword = 10,
         Bow = 11,
+        BodyColor = 12
     }
 }

@@ -1,13 +1,15 @@
 ﻿using System;
-using CodeBase.Game.Data.Enums;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace CodeBase.Game.Data.Configs
 {
     [Serializable]
-    public class BodyColorConfig
+    public class BodyColorConfig : IConfig
     {
-        [field:SerializeField] public BodyColorType Type { get; private set; }
+        [field:SerializeField] public int Id { get; private set; }
+        [field:SerializeField] public Sprite Icon { get; private set; }
         [field:SerializeField] public Material Material { get; private set; }
+        [field:SerializeField] public List<IncompatibilityItemConfig> Incompatibilities { get; private set; }
     }
 }

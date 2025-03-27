@@ -1,0 +1,19 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:f73ceae7240603013f0b0cd32ae6a9da:40bf51c50fb4e925b496ad7d4e436836:b7243fa5e9860620db3247a004ceee81$
+#
+:format=40300
+:texture=shoes_atlass.png
+:size=2048x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+shoes_1;603;664;535;359; 0.5;0.5; 0;0;0;0; 4;535;0;0;0;0;359;535;359; 2;1;2;3;0;1;3
+shoes_2;1;89;566;332; 0.5;0.5; 0;0;0;0; 4;566;0;0;0;0;332;566;332; 2;1;2;3;0;1;3
+shoes_3;1519;673;528;350; 0.5;0.5; 0;0;0;0; 4;528;0;0;0;0;350;528;350; 2;1;2;3;0;1;3
+shoes_icon;1;423;600;600; 0.5;0.5; 0;0;0;0; 4;600;0;0;0;0;600;600;600; 2;1;2;3;0;1;3

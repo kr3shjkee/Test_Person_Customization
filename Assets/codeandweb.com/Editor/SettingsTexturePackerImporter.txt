@@ -1,0 +1,47 @@
+version: 2
+tpsheetFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Sprites/Items/body_atlass.tpsheet
+- Assets/Sprites/Items/faces_atlass.tpsheet
+- Assets/Sprites/Items/glasses_atlass.tpsheet
+- Assets/Sprites/Items/gloves_atlass.tpsheet
+- Assets/Sprites/Items/hairs_atlass.tpsheet
+- Assets/Sprites/Items/hats_atlass.tpsheet
+- Assets/Sprites/Items/mustachess_atlass.tpsheet
+- Assets/Sprites/Items/outwears_atlass.tpsheet
+- Assets/Sprites/Items/pants_atlass.tpsheet
+- Assets/Sprites/Items/shoes_atlass.tpsheet
+- Assets/Sprites/UI/buttons_atlass.tpsheet
+- Assets/Sprites/Weapons/bow_atlass.tpsheet
+- Assets/Sprites/Weapons/swords_atlass.tpsheet
+textureFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Sprites/Items/body_atlass.png
+- Assets/Sprites/Items/faces_atlass.png
+- Assets/Sprites/Items/glasses_atlass.png
+- Assets/Sprites/Items/gloves_atlass.png
+- Assets/Sprites/Items/hairs_atlass.png
+- Assets/Sprites/Items/hats_atlass.png
+- Assets/Sprites/Items/mustachess_atlass.png
+- Assets/Sprites/Items/outwears_atlass.png
+- Assets/Sprites/Items/pants_atlass.png
+- Assets/Sprites/Items/shoes_atlass.png
+- Assets/Sprites/UI/buttons_atlass.png
+- Assets/Sprites/Weapons/bow_atlass.png
+- Assets/Sprites/Weapons/swords_atlass.png
+normalmapFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+enableDebugOutput: 0

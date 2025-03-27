@@ -45,6 +45,9 @@
             <e p="Data" t="Include">
               <e p="Configs" t="Include">
                 <e p="BodyColorConfig.cs" t="Include" />
+                <e p="BodyColorsListConfig.cs" t="Include" />
+                <e p="IConfig.cs" t="Include" />
+                <e p="IListConfig.cs" t="Include" />
                 <e p="IncompatibilityItemConfig.cs" t="Include" />
                 <e p="ItemConfig.cs" t="Include" />
                 <e p="ItemsListConfig.cs" t="Include" />
@@ -56,7 +59,6 @@
                 <e p="SaveDto.cs" t="Include" />
               </e>
               <e p="Enums" t="Include">
-                <e p="BodyColorType.cs" t="Include" />
                 <e p="CallbackType.cs" t="Include" />
                 <e p="ItemType.cs" t="Include" />
               </e>
@@ -71,6 +73,9 @@
               <e p="MainSceneMonoInstaller.cs" t="Include" />
             </e>
             <e p="MVP" t="Include">
+              <e p="Models" t="Include">
+                <e p="MainUiModel.cs" t="Include" />
+              </e>
               <e p="Presenters" t="Include">
                 <e p="LoadingPresenter.cs" t="Include" />
                 <e p="MainUiPresenter.cs" t="Include" />
@@ -78,11 +83,16 @@
               <e p="Services" t="Include">
                 <e p="SaveLoadService.cs" t="Include" />
                 <e p="TimerService.cs" t="Include" />
+                <e p="UpdatePersonService.cs" t="Include" />
               </e>
               <e p="Views" t="Include">
                 <e p="LoadingView.cs" t="Include" />
                 <e p="MainUiView.cs" t="Include" />
               </e>
+            </e>
+            <e p="Ui Elements" t="Include">
+              <e p="ItemButton.cs" t="Include" />
+              <e p="ItemsTypeButton.cs" t="Include" />
             </e>
             <e p="Windows" t="Include">
               <e p="Loading.cs" t="Include" />

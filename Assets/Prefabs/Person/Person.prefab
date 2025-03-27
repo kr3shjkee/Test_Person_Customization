@@ -233,10 +233,10 @@ PrefabInstance:
     - target: {fileID: -2400787742401971714, guid: ad472b939cd48144e9521d873c2e3018, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 9154480696012802162, guid: de746c65be1d3594384300bbc4f9e168, type: 3}
+      objectReference: {fileID: -5866934017332945184, guid: ad472b939cd48144e9521d873c2e3018, type: 3}
     - target: {fileID: -2400787742401971714, guid: ad472b939cd48144e9521d873c2e3018, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -2400787742401971714, guid: ad472b939cd48144e9521d873c2e3018, type: 3}
       propertyPath: m_AABB.m_Center.x

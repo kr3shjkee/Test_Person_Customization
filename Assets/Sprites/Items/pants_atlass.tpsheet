@@ -1,0 +1,18 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:5c2c803eb20d3488cf20abb50351752e:1517cddb9bc84d2d3542fca1dbb8aa09:7ec8cdd115da282326daaec142b5ce22$
+#
+:format=40300
+:texture=pants_atlass.png
+:size=1024x1024
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+pants_1;1;598;461;425; 0.5;0.5; 0;0;0;0; 4;461;0;0;0;0;425;461;425; 2;1;2;3;0;1;3
+pants_2;1;162;435;434; 0.5;0.5; 0;0;0;0; 4;435;0;0;0;0;434;435;434; 2;1;2;3;0;1;3
+pants_icon;464;723;300;300; 0.5;0.5; 0;0;0;0; 4;300;0;0;0;0;300;300;300; 2;1;2;3;0;1;3

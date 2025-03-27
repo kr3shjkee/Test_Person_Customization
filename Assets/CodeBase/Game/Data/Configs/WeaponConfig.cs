@@ -5,7 +5,7 @@ using UnityEngine;
 namespace CodeBase.Game.Data.Configs
 {
     [Serializable]
-    public class WeaponConfig
+    public class WeaponConfig : IConfig
     {
         [field:SerializeField] public int Id { get; private set; }
         [field:SerializeField] public Mesh Mesh { get; private set; }

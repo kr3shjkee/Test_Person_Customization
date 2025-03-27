@@ -8,7 +8,7 @@ namespace CodeBase.Game.Data.Settings
     public class CustomizationSettings : ScriptableObject
     {
         [field:SerializeField] public List<ItemsListConfig> Items { get; private set; }
-        [field:SerializeField] public List<BodyColorConfig> BodyColors { get; private set; }
+        [field:SerializeField] public List<BodyColorsListConfig> BodyColors { get; private set; }
         [field:SerializeField] public List<WeaponsListConfig> Weapons { get; private set; }
     }
 }

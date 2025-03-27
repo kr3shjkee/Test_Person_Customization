@@ -237,6 +237,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _mainUiView: {fileID: 1240084228}
   _loadingView: {fileID: 1373494667}
+  _itemsTypeButtonPrefab: {fileID: 5985699099207006873, guid: 644728dab48251448b0df44d2df83d0c, type: 3}
+  _itemButtonPrefab: {fileID: 212037193895386171, guid: 4a13f50a6ccd2c54b8a4dc9a830b7236, type: 3}
+  _itemButtonsPoolCount: 10
 --- !u!114 &153935071
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -532,7 +535,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103420989}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0664466, y: -0.7410977, z: 0.074164934, w: 0.66397184}
+  m_LocalRotation: {x: 0.11486272, y: -0.7336823, z: 0.12820496, w: 0.65732825}
   m_LocalPosition: {x: 4.394932, y: 1.8939098, z: 0.48394278}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -637,7 +640,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1172108693}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.06644662, y: -0.7410977, z: 0.07416493, w: 0.66397196}
+  m_LocalRotation: {x: 0.11486272, y: -0.7336823, z: 0.12820496, w: 0.65732825}
   m_LocalPosition: {x: 4.394932, y: 1.8939098, z: 0.48394278}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -690,7 +693,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4044717213e31446939f7bd49c896ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 0, y: 1, z: 0}
+  m_TrackedObjectOffset: {x: 0, y: 0.3, z: 0}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 0
   m_LookaheadIgnoreY: 0

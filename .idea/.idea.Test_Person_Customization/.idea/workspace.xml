@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,34 +23,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="474d401a-e423-4d9d-90ad-940d6547b177" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Editor/DeleteSaveFile.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Editor/DeleteSaveFile.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/BodyColorConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/BodyColorConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/IncompatibilityItemConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/IncompatibilityItemConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/ItemConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/ItemConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/ItemsListConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/WeaponConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/WeaponConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/WeaponsListConfig.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/WeaponsListConfig.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Enums/BodyColorType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Enums/BodyColorType.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Enums/ItemType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Enums/ItemType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/BodyColorsListConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/BodyColorsListConfig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/IConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/IConfig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/IListConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/IListConfig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Models/MainUiModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Models/MainUiModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Services/UpdatePersonService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Services/UpdatePersonService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Ui Elements.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Ui Elements/ItemButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Ui Elements/ItemButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Ui Elements/ItemsTypeButton.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Ui Elements/ItemsTypeButton.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test_Person_Customization/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test_Person_Customization/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test_Person_Customization/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test_Person_Customization/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/BodyColorConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/BodyColorConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/ItemConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/ItemConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/ItemsListConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/ItemsListConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/WeaponConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/WeaponConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/WeaponsListConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/WeaponsListConfig.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/DTO/SaveDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/DTO/SaveDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Enums/BodyColorType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Enums/BodyColorType.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Enums/ItemType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Enums/ItemType.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Settings/CustomizationSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Settings/CustomizationSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Game/Installers/MainSceneMonoInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Installers/MainSceneMonoInstaller.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Presenters/MainUiPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Presenters/MainUiPresenter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Services/SaveLoadService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Services/SaveLoadService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Person/Person.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Person/Person.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Views/MainUiView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Views/MainUiView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvases/Main UI Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvases/Main UI Canvas.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Settings/CustomizationSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/CustomizationSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Textures.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Textures.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Core/Compositions/SceneCompositionRoot.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Core/Compositions/SceneInitializer.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/GameSettings.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Core/WindowFsm/IWindowResolve.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Core/WindowFsm/IWindowFsm.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Core/WindowFsm/IWindow.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Core/WindowFsm/Window.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Core/WindowFsm/WindowFsm.cs" />
@@ -77,20 +84,14 @@
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Windows/MainUi.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Views/LoadingView.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Presenters/MainUiPresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Views/MainUiView.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Settings/GameSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Settings/JsonSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Enums/CallbackType.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Installers/MainSceneMonoInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Compositions/CompositionsRoot.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Services/TimerService.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Presenters/LoadingPresenter.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Enums/ItemType.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/DTO/ItemDto.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Enums/BodyColorType.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/DTO/SaveDto.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Services/SaveLoadService.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Editor/DeleteSaveFile.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/ItemsListConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/ItemConfig.cs" />
@@ -102,10 +103,26 @@
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/IncompatibilityItemConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/SwordConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/SwordConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/ItemsListConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/WeaponConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/DTO/SaveDto.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Enums/ItemType.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Services/SaveLoadService.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Views/MainUiView.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Models/ItemTypesModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Ui Elements/ItemButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/IConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/ItemConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/BodyColorConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Ui Elements/ItemsTypeButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/IListConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/ItemsListConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/BodyColorsListConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/WeaponsListConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Services/UpdatePersonService.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Settings/CustomizationSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Presenters/MainUiPresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Installers/MainSceneMonoInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Models/MainUiModel.cs" />
       </list>
     </option>
   </component>
@@ -132,10 +149,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="19368">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="13776">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="19368" />
+      <option name="pid" value="13776" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -150,7 +167,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743060970060</updated>
-      <workItem from="1743060978379" duration="8632000" />
+      <workItem from="1743060978379" duration="21266000" />
     </task>
     <servers />
   </component>
@@ -178,77 +195,77 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="396" height="464" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743085142567" />
-    <state width="1877" height="375" key="GridCell.Tab.0.bottom" timestamp="1743085152834">
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom" timestamp="1743109442298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743085152834" />
-    <state width="1877" height="375" key="GridCell.Tab.0.center" timestamp="1743085152833">
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743109442298" />
+    <state width="1877" height="375" key="GridCell.Tab.0.center" timestamp="1743109442298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="375" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743085152833" />
-    <state width="1877" height="375" key="GridCell.Tab.0.left" timestamp="1743085152833">
+    <state width="1877" height="375" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743109442298" />
+    <state width="1877" height="375" key="GridCell.Tab.0.left" timestamp="1743109442298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="375" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743085152833" />
-    <state width="1877" height="375" key="GridCell.Tab.0.right" timestamp="1743085152834">
+    <state width="1877" height="375" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743109442298" />
+    <state width="1877" height="375" key="GridCell.Tab.0.right" timestamp="1743109442298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="375" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743085152834" />
-    <state width="1877" height="375" key="GridCell.Tab.1.bottom" timestamp="1743085152834">
+    <state width="1877" height="375" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743109442298" />
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom" timestamp="1743109442298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743085152834" />
-    <state width="1877" height="375" key="GridCell.Tab.1.center" timestamp="1743085152834">
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743109442298" />
+    <state width="1877" height="375" key="GridCell.Tab.1.center" timestamp="1743109442298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="375" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743085152834" />
-    <state width="1877" height="375" key="GridCell.Tab.1.left" timestamp="1743085152834">
+    <state width="1877" height="375" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743109442298" />
+    <state width="1877" height="375" key="GridCell.Tab.1.left" timestamp="1743109442298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="375" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743085152834" />
-    <state width="1877" height="375" key="GridCell.Tab.1.right" timestamp="1743085152834">
+    <state width="1877" height="375" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743109442298" />
+    <state width="1877" height="375" key="GridCell.Tab.1.right" timestamp="1743109442298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="375" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743085152834" />
-    <state width="1877" height="375" key="GridCell.Tab.2.bottom" timestamp="1743085152834">
+    <state width="1877" height="375" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743109442298" />
+    <state width="1877" height="375" key="GridCell.Tab.2.bottom" timestamp="1743109442298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="375" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743085152834" />
-    <state width="1877" height="375" key="GridCell.Tab.2.center" timestamp="1743085152834">
+    <state width="1877" height="375" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743109442298" />
+    <state width="1877" height="375" key="GridCell.Tab.2.center" timestamp="1743109442298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="375" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743085152834" />
-    <state width="1877" height="375" key="GridCell.Tab.2.left" timestamp="1743085152834">
+    <state width="1877" height="375" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743109442298" />
+    <state width="1877" height="375" key="GridCell.Tab.2.left" timestamp="1743109442298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="375" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743085152834" />
-    <state width="1877" height="375" key="GridCell.Tab.2.right" timestamp="1743085152834">
+    <state width="1877" height="375" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743109442298" />
+    <state width="1877" height="375" key="GridCell.Tab.2.right" timestamp="1743109442298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="375" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743085152834" />
-    <state width="1877" height="375" key="GridCell.Tab.3.bottom" timestamp="1743085152834">
+    <state width="1877" height="375" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743109442298" />
+    <state width="1877" height="375" key="GridCell.Tab.3.bottom" timestamp="1743109442298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="375" key="GridCell.Tab.3.bottom/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743085152834" />
-    <state width="1877" height="375" key="GridCell.Tab.3.center" timestamp="1743085152834">
+    <state width="1877" height="375" key="GridCell.Tab.3.bottom/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743109442298" />
+    <state width="1877" height="375" key="GridCell.Tab.3.center" timestamp="1743109442298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="375" key="GridCell.Tab.3.center/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743085152834" />
-    <state width="1877" height="375" key="GridCell.Tab.3.left" timestamp="1743085152834">
+    <state width="1877" height="375" key="GridCell.Tab.3.center/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743109442298" />
+    <state width="1877" height="375" key="GridCell.Tab.3.left" timestamp="1743109442298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="375" key="GridCell.Tab.3.left/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743085152834" />
-    <state width="1877" height="375" key="GridCell.Tab.3.right" timestamp="1743085152834">
+    <state width="1877" height="375" key="GridCell.Tab.3.left/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743109442298" />
+    <state width="1877" height="375" key="GridCell.Tab.3.right" timestamp="1743109442298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="375" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743085152834" />
+    <state width="1877" height="375" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743109442298" />
     <state x="794" y="221" key="RiderGenerateDialog" timestamp="1743076716260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="221" key="RiderGenerateDialog/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743076716260" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1743085678063">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1743109225910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743085678063" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743109225910" />
   </component>
 </project>

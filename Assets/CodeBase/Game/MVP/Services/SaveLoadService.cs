@@ -65,7 +65,6 @@ namespace CodeBase.Game.MVP.Services
                     _dto.Items.Add(item);
                 }
             }
-            _dto.BodyColorType = BodyColorType.White;
 
             SaveData();
         }
