@@ -19,22 +19,27 @@ MonoBehaviour:
     - <Id>k__BackingField: 0
       <Mesh>k__BackingField: {fileID: 6657998009922166292, guid: ad472b939cd48144e9521d873c2e3018, type: 3}
       <Icon>k__BackingField: {fileID: -2131707741, guid: 732bd430900e2314ab075ba1570707b4, type: 3}
+      <Name>k__BackingField: 
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 1
       <Mesh>k__BackingField: {fileID: -25535521549600216, guid: c8ef145d788d0804f9e31c8079352c06, type: 3}
       <Icon>k__BackingField: {fileID: 1113554104, guid: bc0231ecdaa7479499ba69e7ac88eb29, type: 3}
+      <Name>k__BackingField: Hat 1
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 2
       <Mesh>k__BackingField: {fileID: -5514853612500976910, guid: 96f9061b735e1454c8444afd2c8cabb1, type: 3}
       <Icon>k__BackingField: {fileID: -1471368607, guid: bc0231ecdaa7479499ba69e7ac88eb29, type: 3}
+      <Name>k__BackingField: Hat 2
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 3
       <Mesh>k__BackingField: {fileID: -7955281462440156075, guid: ce66d77ff5aabf548903d7b30693fbc0, type: 3}
       <Icon>k__BackingField: {fileID: 1832919273, guid: bc0231ecdaa7479499ba69e7ac88eb29, type: 3}
+      <Name>k__BackingField: Hat 3
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 4
       <Mesh>k__BackingField: {fileID: -6976336618207450407, guid: 59564854f919a404f8eeeb391b17c12e, type: 3}
       <Icon>k__BackingField: {fileID: -264799439, guid: bc0231ecdaa7479499ba69e7ac88eb29, type: 3}
+      <Name>k__BackingField: Hat 4
       <Incompatibilities>k__BackingField: []
   - <Type>k__BackingField: 2
     <Icon>k__BackingField: {fileID: 1809207289, guid: 502cf486680ab6245905e208503967fc, type: 3}
@@ -42,14 +47,17 @@ MonoBehaviour:
     - <Id>k__BackingField: 0
       <Mesh>k__BackingField: {fileID: -7927354642031663450, guid: 819bbc3929ae14e43b0d8405d65589f9, type: 3}
       <Icon>k__BackingField: {fileID: 1490899554, guid: 502cf486680ab6245905e208503967fc, type: 3}
+      <Name>k__BackingField: Normal
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 1
       <Mesh>k__BackingField: {fileID: -4389200089894859703, guid: e4f543c638ecbfd40b8dc37cd298e48a, type: 3}
       <Icon>k__BackingField: {fileID: -2057072909, guid: 502cf486680ab6245905e208503967fc, type: 3}
+      <Name>k__BackingField: Happy Face
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 2
       <Mesh>k__BackingField: {fileID: -8518051590879840720, guid: e2a9edf3127d00246a60fb52ef4856b9, type: 3}
       <Icon>k__BackingField: {fileID: -1933652432, guid: 502cf486680ab6245905e208503967fc, type: 3}
+      <Name>k__BackingField: Angry Face
       <Incompatibilities>k__BackingField: []
   - <Type>k__BackingField: 3
     <Icon>k__BackingField: {fileID: 816043777, guid: 166e9cbe34aa802439bacee2803f9bec, type: 3}
@@ -57,14 +65,17 @@ MonoBehaviour:
     - <Id>k__BackingField: 0
       <Mesh>k__BackingField: {fileID: 8485970674117699935, guid: ad472b939cd48144e9521d873c2e3018, type: 3}
       <Icon>k__BackingField: {fileID: -2131707741, guid: 732bd430900e2314ab075ba1570707b4, type: 3}
+      <Name>k__BackingField: 
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 1
       <Mesh>k__BackingField: {fileID: 3231055992845446417, guid: 37ecfcaf8ce0c064d92bcec65eba3e31, type: 3}
       <Icon>k__BackingField: {fileID: 854406785, guid: 166e9cbe34aa802439bacee2803f9bec, type: 3}
+      <Name>k__BackingField: Glasses 1
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 2
       <Mesh>k__BackingField: {fileID: 3231055992845446417, guid: 37ecfcaf8ce0c064d92bcec65eba3e31, type: 3}
       <Icon>k__BackingField: {fileID: 1441781836, guid: 166e9cbe34aa802439bacee2803f9bec, type: 3}
+      <Name>k__BackingField: Glasses 2
       <Incompatibilities>k__BackingField: []
   - <Type>k__BackingField: 4
     <Icon>k__BackingField: {fileID: -1926082198, guid: ee31a23f0d9697846ab26469a7ab4e2a, type: 3}
@@ -72,14 +83,17 @@ MonoBehaviour:
     - <Id>k__BackingField: 0
       <Mesh>k__BackingField: {fileID: -9073019736851073122, guid: ad472b939cd48144e9521d873c2e3018, type: 3}
       <Icon>k__BackingField: {fileID: -2131707741, guid: 732bd430900e2314ab075ba1570707b4, type: 3}
+      <Name>k__BackingField: 
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 1
       <Mesh>k__BackingField: {fileID: 4388357067006938284, guid: ed3cc8f7b4705704db2e46eff03dd968, type: 3}
       <Icon>k__BackingField: {fileID: 2065557585, guid: ee31a23f0d9697846ab26469a7ab4e2a, type: 3}
+      <Name>k__BackingField: Gloves 1
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 2
       <Mesh>k__BackingField: {fileID: -2628522999209309539, guid: 47ba93e4fb1b05e418fa1918bf34ed85, type: 3}
       <Icon>k__BackingField: {fileID: 2143021045, guid: ee31a23f0d9697846ab26469a7ab4e2a, type: 3}
+      <Name>k__BackingField: Gloves 2
       <Incompatibilities>k__BackingField: []
   - <Type>k__BackingField: 5
     <Icon>k__BackingField: {fileID: 869894108, guid: 7702d0a5ad493ec4fa4f0d06a0e075d9, type: 3}
@@ -87,14 +101,17 @@ MonoBehaviour:
     - <Id>k__BackingField: 0
       <Mesh>k__BackingField: {fileID: -2315652163027026327, guid: ad472b939cd48144e9521d873c2e3018, type: 3}
       <Icon>k__BackingField: {fileID: -2131707741, guid: 732bd430900e2314ab075ba1570707b4, type: 3}
+      <Name>k__BackingField: 
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 1
       <Mesh>k__BackingField: {fileID: -8820499275058686143, guid: c00be380054f3aa469720cb9cd40ef14, type: 3}
       <Icon>k__BackingField: {fileID: 511050047, guid: 7702d0a5ad493ec4fa4f0d06a0e075d9, type: 3}
+      <Name>k__BackingField: Male Hair 1
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 2
       <Mesh>k__BackingField: {fileID: 2589799688786906243, guid: 634df7d5a6da6804f95f30ed030ec528, type: 3}
       <Icon>k__BackingField: {fileID: -228093968, guid: 7702d0a5ad493ec4fa4f0d06a0e075d9, type: 3}
+      <Name>k__BackingField: Male Hair 2
       <Incompatibilities>k__BackingField: []
   - <Type>k__BackingField: 6
     <Icon>k__BackingField: {fileID: -1594008611, guid: aded341f0bcf4154e84f8c27576a9a7b, type: 3}
@@ -102,14 +119,17 @@ MonoBehaviour:
     - <Id>k__BackingField: 0
       <Mesh>k__BackingField: {fileID: 3131188959575262684, guid: ad472b939cd48144e9521d873c2e3018, type: 3}
       <Icon>k__BackingField: {fileID: -2131707741, guid: 732bd430900e2314ab075ba1570707b4, type: 3}
+      <Name>k__BackingField: 
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 1
       <Mesh>k__BackingField: {fileID: -3811569408259832331, guid: 7f08cab61f953cd4693ac58a98b96079, type: 3}
       <Icon>k__BackingField: {fileID: 262773337, guid: aded341f0bcf4154e84f8c27576a9a7b, type: 3}
+      <Name>k__BackingField: Mustache 1
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 2
       <Mesh>k__BackingField: {fileID: 2912484300477787147, guid: b4d34f152c73703499b03a8b9beab646, type: 3}
       <Icon>k__BackingField: {fileID: 903227605, guid: aded341f0bcf4154e84f8c27576a9a7b, type: 3}
+      <Name>k__BackingField: Mustache 2
       <Incompatibilities>k__BackingField: []
   - <Type>k__BackingField: 7
     <Icon>k__BackingField: {fileID: 263130999, guid: 18fbd42b5ad00ef42b64aca21db7a762, type: 3}
@@ -117,22 +137,27 @@ MonoBehaviour:
     - <Id>k__BackingField: 0
       <Mesh>k__BackingField: {fileID: -5866934017332945184, guid: ad472b939cd48144e9521d873c2e3018, type: 3}
       <Icon>k__BackingField: {fileID: -2131707741, guid: 732bd430900e2314ab075ba1570707b4, type: 3}
+      <Name>k__BackingField: 
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 1
       <Mesh>k__BackingField: {fileID: 9154480696012802162, guid: de746c65be1d3594384300bbc4f9e168, type: 3}
       <Icon>k__BackingField: {fileID: -1419945976, guid: 18fbd42b5ad00ef42b64aca21db7a762, type: 3}
+      <Name>k__BackingField: Outwear 1
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 2
       <Mesh>k__BackingField: {fileID: 1617087265200637012, guid: e79b799a85000cd4ea6d2332153cbd7b, type: 3}
       <Icon>k__BackingField: {fileID: -1685704045, guid: 18fbd42b5ad00ef42b64aca21db7a762, type: 3}
+      <Name>k__BackingField: Outwear 2
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 3
       <Mesh>k__BackingField: {fileID: -3950228387462889971, guid: d0367ce8ac8ac514a9278f7eb0ed66ac, type: 3}
       <Icon>k__BackingField: {fileID: -646183151, guid: 18fbd42b5ad00ef42b64aca21db7a762, type: 3}
+      <Name>k__BackingField: Outwear 3
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 4
       <Mesh>k__BackingField: {fileID: 9053217031431064551, guid: 5a531847cd74a654b97ef249cb9306d5, type: 3}
       <Icon>k__BackingField: {fileID: -283205746, guid: 18fbd42b5ad00ef42b64aca21db7a762, type: 3}
+      <Name>k__BackingField: Outwear 4
       <Incompatibilities>k__BackingField: []
   - <Type>k__BackingField: 8
     <Icon>k__BackingField: {fileID: 1882044353, guid: 276834541f376ad4d8239248254206cc, type: 3}
@@ -140,14 +165,17 @@ MonoBehaviour:
     - <Id>k__BackingField: 0
       <Mesh>k__BackingField: {fileID: 7666266049737368757, guid: ad472b939cd48144e9521d873c2e3018, type: 3}
       <Icon>k__BackingField: {fileID: -2131707741, guid: 732bd430900e2314ab075ba1570707b4, type: 3}
+      <Name>k__BackingField: 
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 1
       <Mesh>k__BackingField: {fileID: -987022824948863293, guid: 0f24f9714abd24a4596c28822aaa7a39, type: 3}
       <Icon>k__BackingField: {fileID: -1419965819, guid: 276834541f376ad4d8239248254206cc, type: 3}
+      <Name>k__BackingField: Paints 1
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 2
       <Mesh>k__BackingField: {fileID: -4396149814923931179, guid: 67dfe8b1e1ed9b34c985396c6282c820, type: 3}
       <Icon>k__BackingField: {fileID: 1119963660, guid: 276834541f376ad4d8239248254206cc, type: 3}
+      <Name>k__BackingField: Paints 2
       <Incompatibilities>k__BackingField: []
   - <Type>k__BackingField: 9
     <Icon>k__BackingField: {fileID: 2103357138, guid: 6ab21b11f949bbd4aa218b13c15eb31c, type: 3}
@@ -155,18 +183,22 @@ MonoBehaviour:
     - <Id>k__BackingField: 0
       <Mesh>k__BackingField: {fileID: -278085929633702562, guid: ad472b939cd48144e9521d873c2e3018, type: 3}
       <Icon>k__BackingField: {fileID: -2131707741, guid: 732bd430900e2314ab075ba1570707b4, type: 3}
+      <Name>k__BackingField: 
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 1
       <Mesh>k__BackingField: {fileID: -1419061772662269867, guid: 20384ecd8466c804eb14b502b62acc3b, type: 3}
       <Icon>k__BackingField: {fileID: -1953086902, guid: 6ab21b11f949bbd4aa218b13c15eb31c, type: 3}
+      <Name>k__BackingField: Shoes 1
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 2
       <Mesh>k__BackingField: {fileID: -5648626978545720014, guid: bfab5a5ca14002a469bd5912e025f274, type: 3}
       <Icon>k__BackingField: {fileID: -410544323, guid: 6ab21b11f949bbd4aa218b13c15eb31c, type: 3}
+      <Name>k__BackingField: Shoes 2
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 3
       <Mesh>k__BackingField: {fileID: 2990419855401034948, guid: 0fc9184e885899c408b2467848981766, type: 3}
       <Icon>k__BackingField: {fileID: 113183257, guid: 6ab21b11f949bbd4aa218b13c15eb31c, type: 3}
+      <Name>k__BackingField: Shoes 3
       <Incompatibilities>k__BackingField: []
   <BodyColors>k__BackingField:
   - <Type>k__BackingField: 12
@@ -174,18 +206,22 @@ MonoBehaviour:
     _bodyColors:
     - <Id>k__BackingField: 0
       <Icon>k__BackingField: {fileID: 1036015188, guid: b17f476bc489f42499f8f9d226355fe0, type: 3}
+      <Name>k__BackingField: 
       <Material>k__BackingField: {fileID: 2100000, guid: 0d593ac47c5625042812a141f34b2ee9, type: 2}
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 1
       <Icon>k__BackingField: {fileID: 1938604946, guid: b17f476bc489f42499f8f9d226355fe0, type: 3}
+      <Name>k__BackingField: Black
       <Material>k__BackingField: {fileID: 2100000, guid: c3917cb64ce14914c936c55986997878, type: 2}
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 2
       <Icon>k__BackingField: {fileID: -1458677316, guid: b17f476bc489f42499f8f9d226355fe0, type: 3}
+      <Name>k__BackingField: Yellow
       <Material>k__BackingField: {fileID: 2100000, guid: f263a8c65eb79c646afce62c52c741f4, type: 2}
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 3
       <Icon>k__BackingField: {fileID: -869838697, guid: b17f476bc489f42499f8f9d226355fe0, type: 3}
+      <Name>k__BackingField: Green
       <Material>k__BackingField: {fileID: 2100000, guid: 65889011dbfd41240ae764e831b4b8a5, type: 2}
       <Incompatibilities>k__BackingField: []
   <Weapons>k__BackingField:
@@ -196,20 +232,23 @@ MonoBehaviour:
       <Mesh>k__BackingField: {fileID: 0}
       <Material>k__BackingField: {fileID: 0}
       <Icon>k__BackingField: {fileID: -2131707741, guid: 732bd430900e2314ab075ba1570707b4, type: 3}
+      <Name>k__BackingField: 
+      <Incompatibilities>k__BackingField: []
+    - <Id>k__BackingField: 1
+      <Mesh>k__BackingField: {fileID: 5282876915247479997, guid: b50b8fcc0452e034d806ee2d00122129, type: 3}
+      <Material>k__BackingField: {fileID: 2100000, guid: f5bda4a7477389341897fd6034ae1c6a, type: 2}
+      <Icon>k__BackingField: {fileID: -2136723964, guid: ab35dbc6f225bbf4c9fec968448340d7, type: 3}
+      <Name>k__BackingField: Sword 1
       <Incompatibilities>k__BackingField:
       - <Type>k__BackingField: 11
         <Id>k__BackingField: 1
       - <Type>k__BackingField: 11
         <Id>k__BackingField: 2
-    - <Id>k__BackingField: 1
-      <Mesh>k__BackingField: {fileID: 5282876915247479997, guid: b50b8fcc0452e034d806ee2d00122129, type: 3}
-      <Material>k__BackingField: {fileID: 2100000, guid: f5bda4a7477389341897fd6034ae1c6a, type: 2}
-      <Icon>k__BackingField: {fileID: -2136723964, guid: ab35dbc6f225bbf4c9fec968448340d7, type: 3}
-      <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 2
       <Mesh>k__BackingField: {fileID: -9014792341165129318, guid: e462b76e8a852404aaa66ca12c45666d, type: 3}
       <Material>k__BackingField: {fileID: 2100000, guid: 28973ea662180e94aa6d2364e35fa489, type: 2}
       <Icon>k__BackingField: {fileID: 2075596229, guid: ab35dbc6f225bbf4c9fec968448340d7, type: 3}
+      <Name>k__BackingField: Sword 2
       <Incompatibilities>k__BackingField:
       - <Type>k__BackingField: 11
         <Id>k__BackingField: 1
@@ -219,6 +258,7 @@ MonoBehaviour:
       <Mesh>k__BackingField: {fileID: 1551836187813785224, guid: e3ad916c9c1cfb74f804afde5c1ee2b1, type: 3}
       <Material>k__BackingField: {fileID: 2100000, guid: 9c7c6e23105830e4990fd5c7d3e08600, type: 2}
       <Icon>k__BackingField: {fileID: 1748397357, guid: ab35dbc6f225bbf4c9fec968448340d7, type: 3}
+      <Name>k__BackingField: Sword 3
       <Incompatibilities>k__BackingField:
       - <Type>k__BackingField: 11
         <Id>k__BackingField: 1
@@ -231,11 +271,13 @@ MonoBehaviour:
       <Mesh>k__BackingField: {fileID: 0}
       <Material>k__BackingField: {fileID: 0}
       <Icon>k__BackingField: {fileID: -2131707741, guid: 732bd430900e2314ab075ba1570707b4, type: 3}
+      <Name>k__BackingField: 
       <Incompatibilities>k__BackingField: []
     - <Id>k__BackingField: 1
       <Mesh>k__BackingField: {fileID: 141581780014784631, guid: 5d80a38217556ac46a5effbd0765fe3a, type: 3}
       <Material>k__BackingField: {fileID: 2100000, guid: ca7b54b8383e1d640b287425499ccea2, type: 2}
       <Icon>k__BackingField: {fileID: -1399524038, guid: 3f555c86958f35640a8e40610ded9373, type: 3}
+      <Name>k__BackingField: Bow 1
       <Incompatibilities>k__BackingField:
       - <Type>k__BackingField: 10
         <Id>k__BackingField: 1
@@ -247,6 +289,7 @@ MonoBehaviour:
       <Mesh>k__BackingField: {fileID: -8602877035954909257, guid: db78017769eb2ed4f8d44f1c0cc82954, type: 3}
       <Material>k__BackingField: {fileID: 2100000, guid: ca7b54b8383e1d640b287425499ccea2, type: 2}
       <Icon>k__BackingField: {fileID: 501033455, guid: 3f555c86958f35640a8e40610ded9373, type: 3}
+      <Name>k__BackingField: Bow 2
       <Incompatibilities>k__BackingField:
       - <Type>k__BackingField: 10
         <Id>k__BackingField: 1

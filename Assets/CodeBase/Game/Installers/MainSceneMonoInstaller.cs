@@ -14,7 +14,7 @@ namespace CodeBase.Game.Installers
         [SerializeField] private LoadingView _loadingView;
         [SerializeField] private PersonView _personView;
         [SerializeField] private ItemsTypeButton _itemsTypeButtonPrefab;
-        [SerializeField] private ItemButton _itemButtonPrefab;
+        [SerializeField] private ItemCard itemCardPrefab;
         [SerializeField] private int _itemButtonsPoolCount;
         public override void InstallBindings()
         {
@@ -36,9 +36,9 @@ namespace CodeBase.Game.Installers
         private void BindPools()
         {
             Container
-                .BindMemoryPool<ItemButton, ItemButton.Pool>()
+                .BindMemoryPool<ItemCard, ItemCard.Pool>()
                 .WithInitialSize(_itemButtonsPoolCount)
-                .FromComponentInNewPrefab(_itemButtonPrefab)
+                .FromComponentInNewPrefab(itemCardPrefab)
                 .UnderTransformGroup("Stone Elements Pool");
         }
 

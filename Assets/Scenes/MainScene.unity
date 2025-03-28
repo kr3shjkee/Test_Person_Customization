@@ -239,7 +239,7 @@ MonoBehaviour:
   _loadingView: {fileID: 1373494667}
   _personView: {fileID: 8415302197156369496}
   _itemsTypeButtonPrefab: {fileID: 5985699099207006873, guid: 644728dab48251448b0df44d2df83d0c, type: 3}
-  _itemButtonPrefab: {fileID: 212037193895386171, guid: 4a13f50a6ccd2c54b8a4dc9a830b7236, type: 3}
+  itemCardPrefab: {fileID: 212037193895386171, guid: 4a13f50a6ccd2c54b8a4dc9a830b7236, type: 3}
   _itemButtonsPoolCount: 10
 --- !u!114 &153935071
 MonoBehaviour:

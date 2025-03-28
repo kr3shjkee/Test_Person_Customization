@@ -23,12 +23,12 @@ namespace CodeBase.Game.MVP.Presenters
         private readonly UpdatePersonService _updatePersonService;
         
         private readonly ItemsTypeButton.Factory _factory;
-        private readonly ItemButton.Pool _pool;
+        private readonly ItemCard.Pool _pool;
         
         private readonly Type _window = typeof(MainUi);
 
         private List<ItemsTypeButton> _itemTypesButtons;
-        private List<ItemButton> _items;
+        private List<ItemCard> _items;
 
         public MainUiPresenter(
             IWindowFsm windowFsm, 
@@ -37,7 +37,7 @@ namespace CodeBase.Game.MVP.Presenters
             SaveLoadService saveLoadService,
             UpdatePersonService updatePersonService,
             ItemsTypeButton.Factory factory,
-            ItemButton.Pool pool)
+            ItemCard.Pool pool)
         {
             _windowFsm = windowFsm;
             _view = view;
@@ -116,14 +116,17 @@ namespace CodeBase.Game.MVP.Presenters
             if(items.Count == 0)
                 return;
             
-            _items = new List<ItemButton>();
+            _items = new List<ItemCard>();
             foreach (IConfig config in items)
             {
-                ItemButton button = _pool.Spawn();
-                button.gameObject.transform.SetParent(_view.ItemsParent);
-                button.Init(config.Id, config.Icon);
-                button.ClickInvoked += ItemButtonHandler;
-                _items.Add(button);
+                if(config.Id == 0)
+                    continue;
+                
+                ItemCard card = _pool.Spawn();
+                card.gameObject.transform.SetParent(_view.ItemsParent);
+                card.Init(config.Id, config.Icon, config.Name);
+                card.ClickInvoked += ItemButtonHandler;
+                _items.Add(card);
             }
             _view.ControllersAndItemsObject.SetActive(true);
         }
@@ -133,7 +136,7 @@ namespace CodeBase.Game.MVP.Presenters
             _view.ControllersAndItemsObject.SetActive(false);
             if (_items.Count > 0)
             {
-                foreach (ItemButton item in _items)
+                foreach (ItemCard item in _items)
                 {
                     item.ClickInvoked -= ItemButtonHandler;
                     _pool.Despawn(item);
@@ -155,7 +158,6 @@ namespace CodeBase.Game.MVP.Presenters
                 };
                 _updatePersonService.UpdatePerson(dto);
             }
-                
         }
     }
 }

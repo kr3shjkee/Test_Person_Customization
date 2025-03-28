@@ -11,6 +11,7 @@ namespace CodeBase.Game.Data.Configs
         [field:SerializeField] public Mesh Mesh { get; private set; }
         [field:SerializeField] public Material Material { get; private set; }
         [field:SerializeField] public Sprite Icon { get; private set; }
+        [field:SerializeField] public string Name { get; private set; }
         [field:SerializeField] public List<IncompatibilityItemConfig> Incompatibilities { get; private set; }
     }
 }

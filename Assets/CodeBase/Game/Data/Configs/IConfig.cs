@@ -7,6 +7,7 @@ namespace CodeBase.Game.Data.Configs
     {
         public int Id { get; }
         public Sprite Icon { get; }
+        public string Name { get; }
         public List<IncompatibilityItemConfig> Incompatibilities { get; }
     }
 }
