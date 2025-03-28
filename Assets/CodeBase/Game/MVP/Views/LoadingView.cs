@@ -6,6 +6,6 @@ namespace CodeBase.Game.MVP.Views
 {
     public class LoadingView : CanvasGroupView
     {
-        [field:SerializeField] public TextAnimation Animation { get; private set; }
+        [field:SerializeField] public LoadingTextAnimation Animation { get; private set; }
     }
 }

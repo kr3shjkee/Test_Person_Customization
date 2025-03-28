@@ -1,8 +1,8 @@
-﻿using CodeBase.Game.MVP.Models;
+﻿using CodeBase.Game.Elements;
+using CodeBase.Game.MVP.Models;
 using CodeBase.Game.MVP.Presenters;
 using CodeBase.Game.MVP.Services;
 using CodeBase.Game.MVP.Views;
-using CodeBase.Game.Ui_Elements;
 using UnityEngine;
 using Zenject;
 
@@ -12,6 +12,7 @@ namespace CodeBase.Game.Installers
     {
         [SerializeField] private MainUiView _mainUiView;
         [SerializeField] private LoadingView _loadingView;
+        [SerializeField] private PersonView _personView;
         [SerializeField] private ItemsTypeButton _itemsTypeButtonPrefab;
         [SerializeField] private ItemButton _itemButtonPrefab;
         [SerializeField] private int _itemButtonsPoolCount;
@@ -63,12 +64,19 @@ namespace CodeBase.Game.Installers
             
             Container
                 .BindInstance(_loadingView);
+            
+            Container
+                .BindInstance(_personView);
         }
 
         private void BindModels()
         {
             Container
                 .BindInterfacesAndSelfTo<MainUiModel>()
+                .AsSingle();
+            
+            Container
+                .BindInterfacesAndSelfTo<PersonModel>()
                 .AsSingle();
         }
         
@@ -80,6 +88,10 @@ namespace CodeBase.Game.Installers
             
             Container
                 .BindInterfacesAndSelfTo<LoadingPresenter>()
+                .AsTransient();
+            
+            Container
+                .BindInterfacesAndSelfTo<PersonPresenter>()
                 .AsTransient();
         }
     }

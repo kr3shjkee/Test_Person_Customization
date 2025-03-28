@@ -1,11 +1,10 @@
 ﻿using System;
-using CodeBase.Game.Data.Configs;
 using CodeBase.Game.Data.Enums;
 using UnityEngine;
 using UnityEngine.UI;
 using Zenject;
 
-namespace CodeBase.Game.Ui_Elements
+namespace CodeBase.Game.Elements
 {
     public class ItemsTypeButton : MonoBehaviour
     {

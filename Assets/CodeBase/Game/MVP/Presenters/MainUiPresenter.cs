@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using CodeBase.Core.MVP.Presenter;
 using CodeBase.Core.WindowFsm;
 using CodeBase.Game.Data.Configs;
+using CodeBase.Game.Data.DTO;
 using CodeBase.Game.Data.Enums;
+using CodeBase.Game.Elements;
 using CodeBase.Game.MVP.Models;
 using CodeBase.Game.MVP.Services;
 using CodeBase.Game.MVP.Views;
-using CodeBase.Game.Ui_Elements;
 using CodeBase.Game.Windows;
 using UnityEngine;
 
@@ -144,8 +145,17 @@ namespace CodeBase.Game.MVP.Presenters
         private void ItemButtonHandler(int id)
         {
             IConfig config = _model.GetItemConfigById(id);
-            if(config != null)
-                _updatePersonService.UpdatePerson(config, true);
+            if (config != null)
+            {
+                UpdateViewDto dto = new UpdateViewDto
+                {
+                    Config = config,
+                    Type = _model.GetCurrentType(),
+                    IsCheckIncompatibility = true
+                };
+                _updatePersonService.UpdatePerson(dto);
+            }
+                
         }
     }
 }

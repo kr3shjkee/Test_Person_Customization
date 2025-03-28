@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Zenject;
 
-namespace CodeBase.Game.Ui_Elements
+namespace CodeBase.Game.Elements
 {
     public class ItemButton : MonoBehaviour
     {

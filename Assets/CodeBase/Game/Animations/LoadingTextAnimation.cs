@@ -6,7 +6,7 @@ using UnityEngine.Events;
 
 namespace CodeBase.Game.Animations
 {
-    public class TextAnimation : MonoBehaviour
+    public class LoadingTextAnimation : MonoBehaviour
     {
         [SerializeField] private float _duration;
         [SerializeField] private string _repeatingSymbols;

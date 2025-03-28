@@ -1,12 +1,14 @@
-﻿using CodeBase.Game.Data.Configs;
+﻿using System;
+using CodeBase.Game.Data.DTO;
 
 namespace CodeBase.Game.MVP.Services
 {
     public class UpdatePersonService
     {
-        public void UpdatePerson(IConfig config, bool isCheckIncompatibility)
+        public event Action<UpdateViewDto> UpdateInvoked;
+        public void UpdatePerson(UpdateViewDto dto)
         {
-            
+            UpdateInvoked?.Invoke(dto);
         }
     }
 }

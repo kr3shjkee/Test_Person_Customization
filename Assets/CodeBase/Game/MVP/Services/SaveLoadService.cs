@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using CodeBase.Game.Data.DTO;
 using CodeBase.Game.Data.Enums;
 using CodeBase.Game.Data.Settings;
@@ -28,6 +29,8 @@ namespace CodeBase.Game.MVP.Services
         public bool IsLoadingFinish => _isLoadingFinish;
         public SaveDto Dto => _dto;
 
+        public event Action DtoReadyInvoked;
+
         public async UniTask TryLoadDataAsync(Action<CallbackType> callback)
         {
             _isLoadingFinish = false;
@@ -49,6 +52,15 @@ namespace CodeBase.Game.MVP.Services
 
             callback?.Invoke(CallbackType.Loading);
             _isLoadingFinish = true;
+            DtoReadyInvoked?.Invoke();
+        }
+
+        public void SaveItem(ItemType type, int id)
+        {
+            var savedItem = _dto.Items.FirstOrDefault(item => item.Type == type);
+            if (savedItem != null)
+                savedItem.Id = id;
+            SaveData();
         }
 
         private void CreateNewDto()

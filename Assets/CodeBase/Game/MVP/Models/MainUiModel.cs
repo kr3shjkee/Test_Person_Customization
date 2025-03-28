@@ -12,6 +12,7 @@ namespace CodeBase.Game.MVP.Models
 
         private List<IListConfig> _listsConfigs;
         private List<IConfig> _currentItems;
+        private ItemType _currentType;
         
         public MainUiModel(GameSettings gameSettings)
         {
@@ -27,11 +28,13 @@ namespace CodeBase.Game.MVP.Models
         public List<IConfig> GetItemsByType(ItemType type)
         {
             _currentItems = new List<IConfig>();
+            
             IListConfig config = _listsConfigs.FirstOrDefault(item => item.Type == type);
 
             if (config != null)
             {
                 _currentItems = new List<IConfig>(config.Configs);
+                _currentType = type;
             }
 
             return _currentItems;
@@ -40,6 +43,11 @@ namespace CodeBase.Game.MVP.Models
         public IConfig GetItemConfigById(int id)
         {
             return _currentItems.FirstOrDefault(item => item.Id == id);
+        }
+
+        public ItemType GetCurrentType()
+        {
+            return _currentType;
         }
     }
 }

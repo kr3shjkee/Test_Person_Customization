@@ -40,7 +40,7 @@
           </e>
           <e p="Game" t="Include">
             <e p="Animations" t="Include">
-              <e p="TextAnimation.cs" t="Include" />
+              <e p="LoadingTextAnimation.cs" t="Include" />
             </e>
             <e p="Compositions" t="Include">
               <e p="CompositionsRoot.cs" t="Include" />
@@ -60,6 +60,7 @@
               <e p="DTO" t="Include">
                 <e p="ItemDto.cs" t="Include" />
                 <e p="SaveDto.cs" t="Include" />
+                <e p="UpdateViewDto.cs" t="Include" />
               </e>
               <e p="Enums" t="Include">
                 <e p="CallbackType.cs" t="Include" />
@@ -71,6 +72,11 @@
                 <e p="JsonSettings.cs" t="Include" />
               </e>
             </e>
+            <e p="Elements" t="Include">
+              <e p="ChangeViewElement.cs" t="Include" />
+              <e p="ItemButton.cs" t="Include" />
+              <e p="ItemsTypeButton.cs" t="Include" />
+            </e>
             <e p="GameManager.cs" t="Include" />
             <e p="Installers" t="Include">
               <e p="MainSceneMonoInstaller.cs" t="Include" />
@@ -78,10 +84,12 @@
             <e p="MVP" t="Include">
               <e p="Models" t="Include">
                 <e p="MainUiModel.cs" t="Include" />
+                <e p="PersonModel.cs" t="Include" />
               </e>
               <e p="Presenters" t="Include">
                 <e p="LoadingPresenter.cs" t="Include" />
                 <e p="MainUiPresenter.cs" t="Include" />
+                <e p="PersonPresenter.cs" t="Include" />
               </e>
               <e p="Services" t="Include">
                 <e p="SaveLoadService.cs" t="Include" />
@@ -91,11 +99,8 @@
               <e p="Views" t="Include">
                 <e p="LoadingView.cs" t="Include" />
                 <e p="MainUiView.cs" t="Include" />
+                <e p="PersonView.cs" t="Include" />
               </e>
-            </e>
-            <e p="Ui Elements" t="Include">
-              <e p="ItemButton.cs" t="Include" />
-              <e p="ItemsTypeButton.cs" t="Include" />
             </e>
             <e p="Windows" t="Include">
               <e p="Loading.cs" t="Include" />
