@@ -19,8 +19,8 @@ namespace CodeBase.Game.MVP.Presenters
         private readonly IWindowFsm _windowFsm;
         private readonly MainUiView _view;
         private readonly MainUiModel _model;
-        private readonly SaveLoadService _saveLoadService;
         private readonly UpdatePersonService _updatePersonService;
+        private readonly CamerasService _camerasService;
         
         private readonly ItemsTypeButton.Factory _factory;
         private readonly ItemCard.Pool _pool;
@@ -34,16 +34,16 @@ namespace CodeBase.Game.MVP.Presenters
             IWindowFsm windowFsm, 
             MainUiView view, 
             MainUiModel model,
-            SaveLoadService saveLoadService,
             UpdatePersonService updatePersonService,
+            CamerasService camerasService,
             ItemsTypeButton.Factory factory,
             ItemCard.Pool pool)
         {
             _windowFsm = windowFsm;
             _view = view;
             _model = model;
-            _saveLoadService = saveLoadService;
             _updatePersonService = updatePersonService;
+            _camerasService = camerasService;
             _factory = factory;
             _pool = pool;
         }
@@ -54,6 +54,8 @@ namespace CodeBase.Game.MVP.Presenters
             _windowFsm.Closed += OnHandleCloseWindow;
             
             _view.BackButton.onClick.AddListener(BackButtonHandler);
+            _view.ZoomInButton.onClick.AddListener(ZoomInButtonHandler);
+            _view.ZoomOutButton.onClick.AddListener(ZoomOutButtonHandler);
 
             CreateItemTypesButtons();
         }
@@ -64,6 +66,8 @@ namespace CodeBase.Game.MVP.Presenters
             _windowFsm.Closed -= OnHandleCloseWindow;
             
             _view.BackButton.onClick.RemoveListener(BackButtonHandler);
+            _view.ZoomInButton.onClick.RemoveListener(ZoomInButtonHandler);
+            _view.ZoomOutButton.onClick.RemoveListener(ZoomOutButtonHandler);
 
             UnsubscribeButtons();
         }
@@ -143,6 +147,7 @@ namespace CodeBase.Game.MVP.Presenters
                 }
             }
             _items.Clear();
+            _camerasService.InvokeDeactivateItemCamera();
         }
 
         private void ItemButtonHandler(int id)
@@ -158,6 +163,17 @@ namespace CodeBase.Game.MVP.Presenters
                 };
                 _updatePersonService.UpdatePerson(dto);
             }
+        }
+
+        private void ZoomOutButtonHandler()
+        {
+            _camerasService.InvokeDeactivateItemCamera();
+        }
+        
+        private void ZoomInButtonHandler()
+        {
+            ItemType type = _model.GetCurrentType();
+            _camerasService.InvokeActivateItemCamera(type);
         }
     }
 }

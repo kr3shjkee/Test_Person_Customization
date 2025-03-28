@@ -23,21 +23,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="474d401a-e423-4d9d-90ad-940d6547b177" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Elements/ItemCameraElement.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Elements/ItemCameraElement.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Presenters/CamerasPresenter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Presenters/CamerasPresenter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Services/CamerasService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Services/CamerasService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Views/CamerasView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Views/CamerasView.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test_Person_Customization/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test_Person_Customization/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Test_Person_Customization/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Test_Person_Customization/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/BodyColorConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/BodyColorConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/IConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/IConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/ItemConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/ItemConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/WeaponConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/WeaponConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Game/Elements/ItemButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Elements/ItemCard.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Game/Elements/ItemButton.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Elements/ItemCard.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Game/Compositions/CompositionsRoot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Compositions/CompositionsRoot.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Game/Installers/MainSceneMonoInstaller.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/Installers/MainSceneMonoInstaller.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Presenters/MainUiPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Presenters/MainUiPresenter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvases/Main UI Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI/Canvases/Main UI Canvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Elements/Item Button.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI/Elements/Item Button.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/CustomizationSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/CustomizationSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/UI/buttons_atlass.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/UI/buttons_atlass.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Presenters/PersonPresenter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Presenters/PersonPresenter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Person/Person.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Person/Person.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Windows/MainUi.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Settings/GameSettings.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Settings/JsonSettings.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Enums/CallbackType.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Services/TimerService.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/DTO/ItemDto.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Enums/BodyColorType.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Editor/DeleteSaveFile.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/ItemsListConfig.cs" />
@@ -84,23 +78,30 @@
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Presenters/LoadingPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Animations/TextAnimation.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Animations/LoadingTextAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Compositions/CompositionsRoot.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Core/Installers/ProjectMonoInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Views/PersonView.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Models/MainUiModel.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/DTO/UpdateViewDto.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Services/UpdatePersonService.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Elements/ChangeViewElement.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Installers/MainSceneMonoInstaller.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Models/PersonModel.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Services/SaveLoadService.cs" />
-        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Presenters/PersonPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/IConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/BodyColorConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/ItemConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Configs/WeaponConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Elements/ItemCard.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Presenters/CinemachinePresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Views/CinemachineView.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Data/Settings/CamerasSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Installers/MainSceneMonoInstaller.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Compositions/CompositionsRoot.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Services/CamerasService.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Presenters/PersonPresenter.cs" />
         <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Presenters/MainUiPresenter.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/Elements/ItemCameraElement.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Views/CamerasView.cs" />
+        <option value="$PROJECT_DIR$/Assets/CodeBase/Game/MVP/Presenters/CamerasPresenter.cs" />
       </list>
     </option>
   </component>
@@ -146,7 +147,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743060970060</updated>
       <workItem from="1743060978379" duration="29300000" />
-      <workItem from="1743149429379" duration="1641000" />
+      <workItem from="1743149429379" duration="7781000" />
     </task>
     <servers />
   </component>
@@ -239,13 +240,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="375" key="GridCell.Tab.3.right/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743124068151" />
-    <state x="794" y="221" key="RiderGenerateDialog" timestamp="1743118891124">
+    <state x="794" y="221" key="RiderGenerateDialog" timestamp="1743158109708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="221" key="RiderGenerateDialog/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743118891124" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1743122952557">
+    <state x="794" y="221" key="RiderGenerateDialog/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743158109708" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1743160462651">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743122952557" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1024.728@0.0.1920.1040" timestamp="1743160462651" />
   </component>
 </project>

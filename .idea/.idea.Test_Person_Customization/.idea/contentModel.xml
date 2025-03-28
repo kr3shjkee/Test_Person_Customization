@@ -74,6 +74,7 @@
             </e>
             <e p="Elements" t="Include">
               <e p="ChangeViewElement.cs" t="Include" />
+              <e p="ItemCameraElement.cs" t="Include" />
               <e p="ItemCard.cs" t="Include" />
               <e p="ItemsTypeButton.cs" t="Include" />
             </e>
@@ -87,16 +88,19 @@
                 <e p="PersonModel.cs" t="Include" />
               </e>
               <e p="Presenters" t="Include">
+                <e p="CamerasPresenter.cs" t="Include" />
                 <e p="LoadingPresenter.cs" t="Include" />
                 <e p="MainUiPresenter.cs" t="Include" />
                 <e p="PersonPresenter.cs" t="Include" />
               </e>
               <e p="Services" t="Include">
+                <e p="CamerasService.cs" t="Include" />
                 <e p="SaveLoadService.cs" t="Include" />
                 <e p="TimerService.cs" t="Include" />
                 <e p="UpdatePersonService.cs" t="Include" />
               </e>
               <e p="Views" t="Include">
+                <e p="CamerasView.cs" t="Include" />
                 <e p="LoadingView.cs" t="Include" />
                 <e p="MainUiView.cs" t="Include" />
                 <e p="PersonView.cs" t="Include" />

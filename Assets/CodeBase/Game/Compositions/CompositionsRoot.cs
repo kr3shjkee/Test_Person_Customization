@@ -23,6 +23,7 @@ namespace CodeBase.Game.Compositions
             ConstructView<MainUiView, MainUiPresenter>();
             ConstructView<LoadingView, LoadingPresenter>();
             ConstructView<PersonView, PersonPresenter>();
+            ConstructView<CamerasView, CamerasPresenter>();
 
             return default;
         }

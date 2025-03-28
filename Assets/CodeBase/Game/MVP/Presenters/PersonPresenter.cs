@@ -18,7 +18,7 @@ namespace CodeBase.Game.MVP.Presenters
 
         public PersonPresenter(
             UpdatePersonService updatePersonService, 
-            SaveLoadService saveLoadService, 
+            SaveLoadService saveLoadService,
             PersonView view, 
             PersonModel model)
         {

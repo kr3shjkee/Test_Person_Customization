@@ -13,6 +13,7 @@ namespace CodeBase.Game.Installers
         [SerializeField] private MainUiView _mainUiView;
         [SerializeField] private LoadingView _loadingView;
         [SerializeField] private PersonView _personView;
+        [SerializeField] private CamerasView _camerasView;
         [SerializeField] private ItemsTypeButton _itemsTypeButtonPrefab;
         [SerializeField] private ItemCard itemCardPrefab;
         [SerializeField] private int _itemButtonsPoolCount;
@@ -55,6 +56,10 @@ namespace CodeBase.Game.Installers
             Container
                 .BindInterfacesAndSelfTo<UpdatePersonService>()
                 .AsSingle();
+            
+            Container
+                .BindInterfacesAndSelfTo<CamerasService>()
+                .AsSingle();
         }
 
         private void BindViews()
@@ -67,6 +72,9 @@ namespace CodeBase.Game.Installers
             
             Container
                 .BindInstance(_personView);
+            
+            Container
+                .BindInstance(_camerasView);
         }
 
         private void BindModels()
@@ -92,6 +100,10 @@ namespace CodeBase.Game.Installers
             
             Container
                 .BindInterfacesAndSelfTo<PersonPresenter>()
+                .AsTransient();
+            
+            Container
+                .BindInterfacesAndSelfTo<CamerasPresenter>()
                 .AsTransient();
         }
     }
