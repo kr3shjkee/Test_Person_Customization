@@ -1,12 +1,13 @@
 ﻿using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using Zenject;
 
 namespace CodeBase.Game.Elements
 {
-    public class ItemCard : MonoBehaviour
+    public class ItemCard : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         public class Pool : MonoMemoryPool<ItemCard> { }
 
@@ -18,6 +19,8 @@ namespace CodeBase.Game.Elements
         private int _id;
 
         public event Action<int> ClickInvoked;
+        public event Action<int> PointerEnterInvoked;
+        public event Action PointerExitInvoked;
 
         private void Awake()
         {
@@ -36,6 +39,16 @@ namespace CodeBase.Game.Elements
             _id = id;
             _icon.sprite = sprite;
             _nameText.text = name;
+        }
+        
+        public void OnPointerEnter(PointerEventData eventData)
+        {
+            PointerEnterInvoked?.Invoke(_id);
+        }
+
+        public void OnPointerExit(PointerEventData eventData)
+        {
+            PointerExitInvoked?.Invoke();
         }
 
         private void AcceptClickHandler()

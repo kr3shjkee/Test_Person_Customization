@@ -10,6 +10,5 @@ namespace CodeBase.Game.MVP.Views
     {
         [field:SerializeField] public CinemachineVirtualCamera RotateCamera { get; private set; }
         [field:SerializeField] public List<ItemCameraElement> ItemCameras { get; private set; }
-        [field:SerializeField] public CinemachineBrain Brain { get; private set; }
     }
 }

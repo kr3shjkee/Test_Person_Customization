@@ -16,6 +16,8 @@ namespace CodeBase.Game.MVP.Presenters
         private readonly PersonView _view;
         private readonly PersonModel _model;
 
+        private ChangeViewElement _currentElement; 
+
         public PersonPresenter(
             UpdatePersonService updatePersonService, 
             SaveLoadService saveLoadService,
@@ -28,6 +30,7 @@ namespace CodeBase.Game.MVP.Presenters
             _model = model;
             
             _updatePersonService.UpdateInvoked += UpdateElementByDto;
+            _updatePersonService.ReturnItemInvoked += ReturnItem;
             _saveLoadService.DtoReadyInvoked += UpdateElementsAfterLoad;
         }
         public void Enable()
@@ -38,6 +41,7 @@ namespace CodeBase.Game.MVP.Presenters
         public void Disable()
         {
             _updatePersonService.UpdateInvoked -= UpdateElementByDto;
+            _updatePersonService.ReturnItemInvoked -= ReturnItem;
             _saveLoadService.DtoReadyInvoked -= UpdateElementsAfterLoad;
         }
 
@@ -71,7 +75,22 @@ namespace CodeBase.Game.MVP.Presenters
                 }
             }
             element.UpdateView(dto.Config);
-            _saveLoadService.SaveItem(dto.Type, dto.Config.Id);
+            
+            if(dto.IsSave)
+                _saveLoadService.SaveItem(dto.Type, dto.Config.Id);
+
+            _currentElement = element;
+        }
+
+        private void ReturnItem()
+        {
+            var info = _saveLoadService.Dto.Items.FirstOrDefault(item => item.Type == _currentElement.Type);
+            if(info == null || _currentElement.Id == info.Id)
+                return;
+            
+            IConfig config = _model.GetConfigByTypeAndId(_currentElement.Type, info.Id);
+            if(config!=null)
+                _currentElement.UpdateView(config);
         }
     }
 }

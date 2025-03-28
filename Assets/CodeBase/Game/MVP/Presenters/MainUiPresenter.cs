@@ -130,6 +130,8 @@ namespace CodeBase.Game.MVP.Presenters
                 card.gameObject.transform.SetParent(_view.ItemsParent);
                 card.Init(config.Id, config.Icon, config.Name);
                 card.ClickInvoked += ItemButtonHandler;
+                card.PointerEnterInvoked += PointerEnterHandler;
+                card.PointerExitInvoked += PointerExitHandler;
                 _items.Add(card);
             }
             _view.ControllersAndItemsObject.SetActive(true);
@@ -143,6 +145,8 @@ namespace CodeBase.Game.MVP.Presenters
                 foreach (ItemCard item in _items)
                 {
                     item.ClickInvoked -= ItemButtonHandler;
+                    item.PointerEnterInvoked -= PointerEnterHandler;
+                    item.PointerExitInvoked -= PointerExitHandler;
                     _pool.Despawn(item);
                 }
             }
@@ -159,7 +163,8 @@ namespace CodeBase.Game.MVP.Presenters
                 {
                     Config = config,
                     Type = _model.GetCurrentType(),
-                    IsCheckIncompatibility = true
+                    IsCheckIncompatibility = true,
+                    IsSave = true
                 };
                 _updatePersonService.UpdatePerson(dto);
             }
@@ -174,6 +179,27 @@ namespace CodeBase.Game.MVP.Presenters
         {
             ItemType type = _model.GetCurrentType();
             _camerasService.InvokeActivateItemCamera(type);
+        }
+
+        private void PointerEnterHandler(int id)
+        {
+            IConfig config = _model.GetItemConfigById(id);
+            if (config != null)
+            {
+                UpdateViewDto dto = new UpdateViewDto
+                {
+                    Config = config,
+                    Type = _model.GetCurrentType(),
+                    IsCheckIncompatibility = true,
+                    IsSave = false
+                };
+                _updatePersonService.UpdatePerson(dto);
+            }
+        }
+
+        private void PointerExitHandler()
+        {
+            _updatePersonService.InvokeReturnItem();
         }
     }
 }

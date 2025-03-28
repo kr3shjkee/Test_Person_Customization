@@ -8,5 +8,6 @@ namespace CodeBase.Game.Data.DTO
         public IConfig Config;
         public ItemType Type;
         public bool IsCheckIncompatibility;
+        public bool IsSave;
     }
 }
